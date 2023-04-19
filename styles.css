@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Serif JP', 'Poppins';
+}
+
+#page-wrapper{
+    position: relative;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3E9D8;
+    height: 88px;   
+    padding: 24px 120px; 
+}
+
+.logo, #nav-bar{
+    position: relative;
+    animation-name: slidedown;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+@keyframes slidedown{
+    0%{top: -50px}
+    100%{top: 5px}
+}
+
+#header-img{
+    width: 121px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar ul{
+   width: 35vw;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+   gap: 40px;
+   font-family: 'Poppins';
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 32px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #0A141ECC
+}
+
+#home-link{
+    color:#C68B45;
+    font-weight: 600; 
+    font-size: 20px;
+}
+
+#hero-section{
+    height: 620px;
+    background-color: #F3E9D8;
+    padding: 140px 120px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.hero p{
+    color: #100B05;
+    font-family: 'Poppins';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    width: 273px;
+}
+
+.hero h1{
+    color: #100B05;
+    font-family: 'Noto Serif JP';
+    font-size: 56px;
+    line-height: 80px;
+    font-weight: 900;
+    width: 737px;
+}
+
+.hero .subtitle{
+    color: rgba(10,20,30,0.8);
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    width: 500px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1{
+    width: 217px;
+    height: 72px;
+    background-color: #C68B45;
+    padding: 16px 56px;
+    color: #E9F0F8;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.btn2{
+    width: 201px;
+    height: 72px;
+    background-color: #F3E9D8;
+    padding: 16px 56px;
+    color: #C68B45;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+    border: 3px solid #C68B45
+}
+
+.hero, .buttons{
+    position: relative;
+    animation-name: slideright;
+    animation-duration: 3s;
+}
+
+@keyframes slideright{
+    0%{left: -1000px}
+    100%{left: 0}
+}
+
+#hero-img{
+    width: 980px;
+    height: 560px;
+    position: absolute;
+    right: 0;
+    top: 320px;
+    padding-right: 64px;
+}
+
+#shop-section{
+    background-color: #FDFBF7;
+    height: 948px;
+    padding: 248px 128px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.section-note{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.section-note h1{
+    color: #100B05;
+    font-family: 'Noto Serif JP';
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 900;
+    width: 492px;
+    height: 96px;
+}
+
+.section-note p{
+    color: rgba(10,20,30,0.8);
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    width: 492px;
+    height: 96px;
+    margin-bottom: 40px;
+}
+
+.btn3{
+    width: 233px;
+    height: 72px;
+    background-color: #C68B45;
+    padding: 16px 56px;
+    color: #E9F0F8;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+    gap: 10px;
+}
+
+.furniture{
+    height: 588px;
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 24px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 180px;
+    width: 566px;
+    gap: 16px;
+}
+
+#chair{
+    width: 200px;
+    height: 180px;
+}
+
+
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 164px;
+    width: 350px;
+    gap: 16px;
+}
+
+@media screen and (max-width: 1100px){
+    body{
+        width: 100%;
+    }
+    #shop-section{
+        flex-direction: column;
+    }
+    .furniture{
+        margin-top: 4rem;
+    }
+    .hero .subtitle{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .hero h1{
+        width: 550px;
+    }
+    .hero .subtitle{
+        width: 320px;
+    }
+}
