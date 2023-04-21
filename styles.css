@@ -155,12 +155,11 @@ a{
 }
 
 #hero-img{
-    width: 980px;
-    height: 560px;
     position: absolute;
-    right: 0;
-    top: 320px;
-    padding-right: 64px;
+    width: 818px;
+    height: 500px;
+    left: 546px;
+    top: 270px;
 }
 
 #shop-section{
