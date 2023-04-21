@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #F3E9D8;
+    width: 1440px;
     height: 88px;   
     padding: 24px 120px; 
 }
@@ -163,6 +164,7 @@ a{
 
 #shop-section{
     background-color: #FDFBF7;
+    max-width: 1440px;
     height: 948px;
     padding: 248px 128px 120px;
     display: flex;
