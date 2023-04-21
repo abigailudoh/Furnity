@@ -181,7 +181,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+    background-color: #FFFFFF;
 }
 
 .section-note h1{
@@ -227,6 +227,7 @@ a{
     flex-direction: column;
     justify-content: left;
     gap: 24px;
+    background-color: #FFFFFF;
 }
 
 .grid{
