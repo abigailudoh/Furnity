@@ -71,6 +71,7 @@ a{
 
 #hero-section{
     height: 620px;
+    width: 1440px;
     background-color: #F3E9D8;
     padding: 140px 120px 180px;
     display: flex;
