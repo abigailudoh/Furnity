@@ -85,6 +85,7 @@ a{
     font-family: 'Poppins';
     font-size: 24px;
     line-height: 36px;
+    height: 36px;
     font-weight: 600;
     width: 273px;
 }
@@ -93,6 +94,7 @@ a{
     color: #100B05;
     font-family: 'Noto Serif JP';
     font-size: 56px;
+    height: 80px;
     line-height: 80px;
     font-weight: 900;
     width: 737px;
@@ -104,6 +106,7 @@ a{
     font-size: 20px;
     line-height: 32px;
     font-weight: 400;
+    height: 64px;
     width: 500px;
 }
 
