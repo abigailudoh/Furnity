@@ -164,8 +164,8 @@ a{
 }
 
 #shop-section{
-    background-color: #FDFBF7;
-    max-width: 1440px;
+    background-color: #FFFFFF;
+    width: 1440px;
     height: 948px;
     padding: 248px 128px 120px;
     display: flex;
