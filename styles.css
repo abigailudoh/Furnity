@@ -114,11 +114,12 @@ a{
     width: 500px;
 }
 
-#buttons{
+.hero #buttons{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .btn1{
