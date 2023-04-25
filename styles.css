@@ -80,7 +80,10 @@ a{
 .hero{
     width: 737px;
     height: 300px;
-    display: flex;
+}
+
+.herobuttons{
+  display: flex;
     flex-direction: column;
     gap: 8px;
 }
