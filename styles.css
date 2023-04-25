@@ -116,7 +116,6 @@ a{
 
 .hero #buttons{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -151,7 +150,7 @@ a{
     border: 3px solid #C68B45
 }
 
-.hero, .buttons{
+.hero{
     position: relative;
     animation-name: slideright;
     animation-duration: 3s;
