@@ -118,7 +118,7 @@ a{
     width: 500px;
 }
 
-.hero #buttons{
+#buttons{
     display: flex;
     justify-content: flex-start;
     align-items: center;
