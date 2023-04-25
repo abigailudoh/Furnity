@@ -81,8 +81,7 @@ a{
     width: 737px;
     height: 300px;
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    gap: 8px;
 }
 
 .hero p{
@@ -151,7 +150,7 @@ a{
     border: 3px solid #C68B45
 }
 
-.hero{
+.hero #buttons{
     position: relative;
     animation-name: slideright;
     animation-duration: 3s;
